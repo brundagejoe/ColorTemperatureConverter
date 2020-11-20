@@ -85,10 +85,10 @@ void KelvinTempCalc() {
       }
     }
 
-    cout << "RGB values are: " << red << "," << green << "," << blue << endl;
+    cout << "RGB values are: " << red << ", " << green << ", " << blue << endl;
     red = red/255;
     green = green/255;
     blue = blue/255;
 
-    cout << "In 0-1 range they are: " << red << "," << green << "," << blue << " ";
+    cout << "In 0-1 range they are: " << red << ", " << green << ", " << blue << " ";
 }
